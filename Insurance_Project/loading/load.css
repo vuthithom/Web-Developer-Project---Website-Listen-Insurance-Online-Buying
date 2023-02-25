@@ -1,0 +1,8 @@
+#load-gui {
+    transition: all 1s;
+    font-family: 'Chelsea Market', cursive;
+    font-weight: 400;
+}
+.loading {
+    font-family: 'Chelsea Market', cursive;
+}

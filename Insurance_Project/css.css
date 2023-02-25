@@ -1,0 +1,267 @@
+
+.hover-me2 {
+    color:BLACK;
+    margin-left:0px;
+    transition: all 0.3s;
+}
+.hover-me2:hover {
+    color: #e52322;
+    text-decoration: none;
+    margin-left:5px;
+}
+.hover-me3 {
+    color:black;
+    font-size:1.9vmin;
+    text-decoration:none;
+    transition: all 0.4s;
+}
+.hover-me3:hover {
+    color:#e52322;
+    text-decoration:none;
+    padding-left:5px;
+}
+.hover-link {
+    color:black;
+    text-decoration:none;
+}
+.hover-link:hover {
+    color:red   ;
+    text-decoration: none;
+}
+.hover-down {
+    color:BLACK;
+    margin-top:0px;
+    transition: all 0.3s;
+}
+.hover-down:hover {
+    color: #e52322;
+    text-decoration: none;
+    margin-top:5px;
+}
+
+.hover-me {
+    color:BLACK;
+    padding-top:29px;
+    padding-right:40px;
+}
+.hover-me:hover {
+    color: #e52322;
+    text-decoration: none;
+}
+.hover-black {
+    color:BLACK;
+    text-decoration: none;
+}
+.hover-black:hover {
+    color: #e52322;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*  */
+.cr {
+    color: #e52322;
+    text-decoration: none;
+    font-weight: 500;
+}
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+input {
+    padding: 0 5px 0 10px;
+}
+.inputWrap {
+    display: inline;
+    float: left;
+    margin-right: 4px;
+}
+.btnclass {
+    margin-top: 8px;
+    height: 37px;
+}
+.upper {
+    text-transform: uppercase;
+}
+.slidee {
+    height:260px;
+    background-size:cover;
+    background-image: url('img/car.png');
+    background-position-x: center;
+    background-position-y: 40%;
+    margin-top:97px;
+}
+.col {
+    margin:0px;
+}
+.font-mon{
+    font-family: 'Montserrat', sans-serif;
+} 
+.footer-h {
+    height:230px
+}
+.f-36 {
+    font-size: 36px;
+}
+.mb {
+    display:none;
+}
+.mb-item {
+    padding:6px;
+}
+.cr {
+    background-color: #e52322;
+    color:white;
+}
+.crr {
+    color:#e52322;
+}
+#test2 {
+    transition: all 1s;
+}
+.flex-mb {
+    display: flex;
+}
+.card {
+    width: 600px;height:620px
+}
+.card-f {
+    font-size: 24px;
+}
+.card-text {
+    font-size: 16px;
+}
+.flex-wrap {
+    display:flex;
+}
+.footer-h {
+    height:320px;
+}
+.map {
+    height:550px;
+    width:100%;
+}
+.card {
+    margin-right:10px;
+}
+.s-box {
+    position:absolute;
+    left:0px;
+    float:right;
+    width:27%;
+    height:365px;
+    background-color:#333333;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.hv-d {
+    height:100%;
+}
+#p {
+    display: none;
+}
+#hold:hover #p {
+    display: block;
+}
+
+#hold:hover {
+}
+#logoday {
+    transition: all 1s;
+}
+.trans {
+    transition: all 1.3s;
+}
+.mb-top {
+    margin-top:118px;
+}
+.slide-mb {
+    height:585px;
+}
+.carousel .carousel-indicators li {
+    width: 10px;
+height: 10px;
+border-radius: 100% !important;
+}
+.slide-p-mb {
+    top:210px;
+}
+#phoneshow {
+    transition: all 0.5s;
+}
+@media (max-width:1203px) {
+    
+.slide-p-mb {
+    top:60px;
+}
+.slide-mb {
+    height:190px;
+}
+    .mb-top {
+        margin-top:38px;
+    }
+    .mb-none{
+        display:none;
+    }
+    .map {
+        height:220px;
+        width:100%;
+    }
+    .footer-h {
+        height:380px !important;
+    }
+    .flex-wrapr {
+        flex-wrap:wrap;
+    }
+    .card {
+        width: 300px;height:380px;
+        margin-top:40px;
+    }
+    .card-text {
+        font-size: 10px;
+    }
+    .card-f {
+        font-size: 16px;
+    }
+    .unknow {
+        height:600px;
+    }
+    .flex-mb {
+        flex-wrap: wrap;
+        display: none;
+    }
+    .f-36 {
+        font-size: 15px;
+    }
+    .footer-h {
+        height:270px
+    }
+    .slidee {
+        height:250px;
+        background-size:cover;
+        background-image: url('img/car.png');
+        background-position-x: center;
+        margin-top:97px;
+    }
+    .flex-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }   
+}
+.font-bungee {
+    font-family: 'Bungee Shade', cursive;
+}
+.font-la {
+    font-family: 'Lobster', cursive;
+}
+.font-ten {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+@media (max-width:1200px){
+    .pc {
+        display:none;
+    }
+    .mb {
+        display:block;
+    }
+}

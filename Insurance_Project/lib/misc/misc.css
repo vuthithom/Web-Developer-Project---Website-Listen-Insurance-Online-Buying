@@ -1,0 +1,11 @@
+p {
+    margin:0px;
+    margin-bottom:3px;
+}
+.t-center {
+    text-align: center;
+}
+
+.smooth-move {
+    transition: all 1s;
+}

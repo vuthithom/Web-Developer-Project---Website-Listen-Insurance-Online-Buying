@@ -1,0 +1,43 @@
+
+.carousel-control-prev-iconn,
+.carousel-control-next-iconn {
+  outline: black;
+
+  color:black;
+  width:40px;
+  height:40px;
+}
+.carousel-control-prev-iconn:after {
+    content: url('../../img/ar-l.png');
+    position: absolute;
+    top:12px;
+    right:18px;
+}
+.carousel-control-next-iconn:after {
+    content: url('../../img/ar-r.png');
+    position: absolute;
+    width:30px;
+    top:12px;
+    left:18px;
+}
+.wrap-hover {
+    transition: all 1s;
+}
+.wrap-hover:hover {
+    background-color: rgb(195, 195, 195);
+}
+@media (max-width:1200px){
+    .carousel-control-prev-iconn:after {
+        content: url('../../img/ar-l.png');
+        position: absolute;
+        top:80px;
+        right:-50px;
+    }
+    .carousel-control-next-iconn:after {
+        content: url('../../img/ar-r.png');
+        position: absolute;
+        width:30px;
+        top:80px;
+        left:-50px;
+    }
+}

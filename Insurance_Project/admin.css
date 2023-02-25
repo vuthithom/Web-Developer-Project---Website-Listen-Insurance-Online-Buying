@@ -1,0 +1,21 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.tt {
+  width: 40%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.f {
+    position: absolute;
+    right: 10px;
+}
+
+.skills {
+  height: 5px;
+  color: white; /* White text color */
+}
+
+.aa {width: 50%; background-color: #4CAF50;} /* Green */
+.bb {width: 20%;background-color: darkorange;}

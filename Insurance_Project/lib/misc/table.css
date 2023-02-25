@@ -1,0 +1,33 @@
+.lib-tb {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.lib-tb > .tb-left {
+    width:55%;
+    margin-right: 4%;
+}
+.lib-tb > .tb-right {
+    width:45%;
+}
+.lib-tb > .tb-right {
+    float:right;
+}
+@media (max-width:973px){
+    .lib-tb{
+        width: 98%;
+        margin: auto;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .lib-tb > .tb-left {
+        width:100%;
+    }
+    .lib-tb > .tb-right {
+        width:100%;
+        position: absolute;
+        top:-125px;
+        left:-75px;
+        z-index: -1;
+    }
+}
